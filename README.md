@@ -2,9 +2,9 @@
 
 A full-stack civic issue reporting and tracking platform that connects citizens with administrators to report, monitor, prioritize, and resolve local civic problems.
 
-## 🚀 Features
+##  Features
 
-### 👤 Citizen
+### Citizen
 
 * User registration and login
 * Report civic issues with category, title, description, and location
@@ -18,7 +18,7 @@ A full-stack civic issue reporting and tracking platform that connects citizens 
 * View issue details, priority, category, and location
 * Persistent authentication across sessions
 
-### 🛡️ Admin
+###  Admin
 
 * Secure admin authentication
 * Dashboard with issue statistics
@@ -29,7 +29,7 @@ A full-stack civic issue reporting and tracking platform that connects citizens 
 * Update issue priority
 * View detailed issue information
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
 ┌─────────────────────────┐
@@ -52,7 +52,7 @@ A full-stack civic issue reporting and tracking platform that connects citizens 
 └─────────────────────────┘
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -76,7 +76,7 @@ A full-stack civic issue reporting and tracking platform that connects citizens 
 * Docker
 * Docker Compose
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 CivicFix/
@@ -96,7 +96,7 @@ CivicFix/
 └── README.md
 ```
 
-## 🔐 Authentication & Roles
+##  Authentication & Roles
 
 CivicFix uses role-based authentication to provide different functionality to citizens and administrators.
 
@@ -107,7 +107,7 @@ CivicFix uses role-based authentication to provide different functionality to ci
 
 Authentication is handled using bearer tokens, with protected endpoints for administrative operations.
 
-## 📍 Issue Management
+##  Issue Management
 
 Each reported issue contains information such as:
 
@@ -133,7 +133,7 @@ RESOLVED
 
 Administrators can update the status and priority of reported issues from the admin dashboard.
 
-## 🐳 Running Locally
+##  Running Locally
 
 ### Prerequisites
 
@@ -169,7 +169,7 @@ FastAPI's interactive API documentation is available at:
 
 when accessing the backend locally.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Image upload for reported civic issues
 * Email/SMS notifications for status updates
@@ -178,11 +178,11 @@ when accessing the backend locally.
 * Analytics for identifying high-priority civic problem areas
 * Deployment with a production database and cloud infrastructure
 
-## 🎯 Project Goal
+##  Project Goal
 
 CivicFix aims to provide a centralized platform for reporting and managing civic issues while improving transparency between citizens and local administrators.
 
-## 👨‍💻 Author
+##  Author
 
 **Bravima Billa**
 
