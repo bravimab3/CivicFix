@@ -1,0 +1,16 @@
+{
+  "routes": [
+    { "path": "/", "title": "CivicFix home" },
+    { "path": "/login", "title": "Log in to CivicFix" },
+    { "path": "/signup", "title": "Create a CivicFix account" },
+    { "path": "/app", "title": "Citizen dashboard" },
+    { "path": "/app/report", "title": "Report an issue" },
+    { "path": "/app/issues", "title": "My issues" },
+    { "path": "/app/issues/:id", "title": "Issue details" },
+    { "path": "/app/profile", "title": "Profile" },
+    { "path": "/admin", "title": "Admin dashboard" },
+    { "path": "/admin/issues", "title": "All issues" },
+    { "path": "/admin/users", "title": "Users" },
+    { "path": "/admin/issues/:id", "title": "Admin issue details" }
+  ]
+}

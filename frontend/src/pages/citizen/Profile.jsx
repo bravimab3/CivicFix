@@ -1,0 +1,8 @@
+import { Mail, ShieldCheck, UserRound } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { AppShell } from '../../components/AppShell'
+import { PageHeader } from '../../components/DashboardBits'
+import { useAuth } from '../../context/AuthContext'
+import { getDisplayName } from '../../utils'
+
+export default function Profile() { const { user, role } = useAuth(); const name = getDisplayName(user); const email = user?.email || 'Email provided by the backend session'; return <AppShell><PageHeader eyebrow="ACCOUNT" title="Your profile" description="The details connected to your CivicFix account." /><div className="profile-layout"><div className="profile-card profile-identity"><span className="profile-large-avatar">{name.charAt(0).toUpperCase()}</span><span className="eyebrow">CIVICFIX RESIDENT</span><h2>{name}</h2><p>{email}</p><span className="profile-role"><ShieldCheck size={14} /> {role || 'Authenticated account'}</span></div><div className="profile-card"><span className="eyebrow">ACCOUNT DETAILS</span><div className="profile-detail-row"><UserRound size={17} /><span><small>Full name</small><strong>{name}</strong></span></div><div className="profile-detail-row"><Mail size={17} /><span><small>Email</small><strong>{email}</strong></span></div><div className="profile-detail-row"><ShieldCheck size={17} /><span><small>Access</small><strong>{role || 'Authenticated'}</strong></span></div><p className="profile-note">Profile fields are read from the active backend session. Update support can be added here once the FastAPI profile mutation endpoint is available.</p><Link className="button button-secondary button-small" to="/app">Back to dashboard</Link></div></div></AppShell> }
