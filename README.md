@@ -169,28 +169,6 @@ FastAPI's interactive API documentation is available at:
 
 when accessing the backend locally.
 
-## 📸 Screenshots
-
-### Citizen Dashboard
-
-*Add screenshot here*
-
-### Report Issue
-
-*Add screenshot here*
-
-### Issue Tracking
-
-*Add screenshot here*
-
-### Admin Dashboard
-
-*Add screenshot here*
-
-### Interactive Issue Map
-
-*Add screenshot here*
-
 ## 🔮 Future Improvements
 
 * Image upload for reported civic issues
